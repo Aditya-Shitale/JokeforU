@@ -19,7 +19,7 @@ function App() {
   let getJoke = async () => {
     setLoading(true);
     try {
-      const response = await fetch('https://v2.jokeapi.dev/joke/Any');
+      const response = await fetch('https://v2.jokeapi.dev/joke/Dark?type=single');
       const data = await response.json();
       setJoke(data.joke);
     } catch (err) {
