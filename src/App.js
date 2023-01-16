@@ -39,7 +39,7 @@ function App() {
     <ChakraProvider theme={theme}>
       <Flex flexDirection={'column'}>
         <Flex justifyContent={'space-between'} m={5}>
-          <Heading color={'teal'}>Jokes For You</Heading>
+          <Heading color={'teal'}>Jokes Not For Everyone</Heading>
           <Flex justifyContent={'flex-end'} m={5}>
             
 
